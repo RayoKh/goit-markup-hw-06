@@ -676,26 +676,32 @@ button {
   fill: var(--cloud-color);
 }
 
+/**
+  |============================
+  | subscribe group
+  |============================
+*/
+
 .subscribe {
   margin-left: auto;
 }
 
-.subscribe-form {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.subscribe-label {
-  display: flex;
-  flex-direction: column;
+.subscribe-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
 
   margin-bottom: 16px;
+
+  color: #fff;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .subscribe-field {
@@ -704,7 +710,6 @@ button {
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
   padding: 8px 16px;
-  margin-top: 16px;
   width: 264px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -719,13 +724,11 @@ button {
 }
 
 .subscribe-btn {
-  align-self: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 8px 24px;
-  margin-top: 24px;
   color: #fff;
 
   display: flex;
