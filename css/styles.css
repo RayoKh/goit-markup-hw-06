@@ -680,6 +680,12 @@ button {
   margin-left: auto;
 }
 
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
 .subscribe-badge {
   font-weight: 500;
   font-size: 16px;
@@ -719,6 +725,7 @@ button {
 }
 
 .subscribe-btn {
+  align-self: end;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1082,6 +1089,7 @@ button {
 }
 
 .modal-form-link {
+  text-decoration: underline;
   color: var(--iris-color);
 }
 
